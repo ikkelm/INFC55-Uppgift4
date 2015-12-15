@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+header {
+	background-image: url(superSportLogo.png);
+	background-repeat: no-repeat;
+	width: 617px;
+	height: 117px;
+  margin: auto;
+}
+body {
+  font-family: raleway; 
+}
+input[type=text],input[type=email],input[type=password]{
+
+  -webkit-appearance: none; -moz-appearance: none;
+  display: block;
+  margin: 0;
+  width: 100%; height: 40px;
+  line-height: 40px; font-size: 17px;
+  border: 1px solid #bbb;
+}
+
+#main {
+  margin: auto;
+  max-width: 550px;
+}
+ul {
+    display: inline;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+a {
+  padding-right: 20px;
+}
+li a {
+	display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: raleway; 
+}
+li a:hover {
+    background-color: green;
+    color: white;
+}
+table { table-layout: fixed; margin: 0 auto; }
+table td { overflow: hidden; min-width: 200px; }
+th {
+  text-align: left;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-indent: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  header { 
+      background-image: url(superSportLogoMobile.png);
+      background-repeat: no-repeat;
+      width: 245px;
+      height: 82px;
+      margin: auto;
+
+  }
+  #login {
+    margin: 25px 0 25px 0 !important;
+  }
+  a { display: block; 
+      padding: 0.20em; 
+      width: auto;
+      border-bottom: 1px solid #330000; }
+  
+  li { display: block; }
+
+  h1 { text-align: center;
+      font-size: 1em;
+  }
+  h2 { padding-top: 0.5em;
+    padding-right: 0em;
+    padding-bottom: 0em;
+    padding-left: 0.5em; 
+    font-size: 1em; 
+  }
+
+  table  { width: 100%; }
+
+  input[type=text],input[type=email],input[type=password]{
+
+  -webkit-appearance: none; -moz-appearance: none;
+  display: block;
+  margin: 0;
+  width: 100%; height: 40px;
+  line-height: 40px; font-size: 17px;
+  border: 1px solid #bbb;
+  }
+}
+#login{
+margin: auto;
+max-width: 550px;
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+padding: 10px 40px 25px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#loginform{
+width:auto;
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+padding: 10px 40px 25px;
+}
+#teamInfoForm{
+width:auto;
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+padding: 10px 40px 25px;
+}
+#losen{
+  width:auto;
+  padding: 10px 40px 25px;
+}
+#laggTillSpelledare{
+  width:auto;
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+padding: 10px 40px 25px;
+}
+#loginform
+{
+width:auto;
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+padding: 10px 40px 25px;
+}
+#footer{
+
+text-align: center;
+
+}
